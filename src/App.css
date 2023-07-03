@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inspiration&family=Montserrat:wght@300&family=Open+Sans:wght@300;400;500;600;800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Shalimar&family=Shrikhand&family=Source+Sans+Pro:wght@300&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f6f7fb;
+}
+
+.navbar{
+    background-color: white;
+    padding: 15px 40px;
+    box-shadow: 0px 2px 2px #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right h3{
+    font-size: 15px;
+    font-weight: 300;
+    padding-right: 25px;
+}
+
+.right h3 a{
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+}
+
+.left{
+    display:  flex;
+    align-items: center;
+}
+
+.logo h1{
+    display: inline;
+    font-size: 22px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 23px;
+}
+
+.menu-item ul{
+    display: flex;
+    padding: 0px 35px;
+    align-items: flex-end;
+}
+
+.menu-item ul li{
+    list-style: none;
+    padding: 0px 10px;
+}
+
+.menu-item ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    padding-bottom: 18px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.menu-item  .active a{
+    color: #20b883;
+    border-bottom: 3px solid #20b883;
+}
+
+.log_in_box{
+    /* border: 1px solid red; */
+    background-color: white;
+    height: 270px;
+    width: 460px;
+    margin: 25px auto;
+    padding: 18px;
+    box-shadow: 2px 2px 3px #ccc,
+    -2px -2px 3px #ccc;
+    border-radius: 6px;
+}
+
+.log_in_box h1{
+    font-size: 25px;
+    font-weight: 400px;
+    letter-spacing: 2px;
+}
+
+.log_in_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.log_in_box  input{
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid gray;
+    margin-top: 20px;
+}
+
+.log_in_box input:focus{
+    /* border: unset; */
+    outline: none;
+    border: 2px transparent black;
+    background-color:#ccc;
+}
+
+.log_in_box  input[type = 'button']{
+    border-bottom: none;
+    background-color: #20b883;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+
+.filter h3{
+    padding-bottom: 10px;
+}
+
+.filter p{
+    padding-bottom: 10px;
+}
+.checkbox{
+    padding-bottom: 5px;
+}
+
+.checkbox label{
+    padding-left: 10px;
+}
+
+.filter label{
+    cursor: pointer;
+}
+
+
+#order_container{
+    padding: 2% 6%;
+}
+
+.heading{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.order_Wrapper{
+    display:  flex;
+    justify-content: space-between;
+}
+
+.order_list{
+    width: 85%;
+
+}
+
+.search{
+    margin-bottom: 10px;
+    outline: none;
+    padding: 5px 10px;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+thead{
+    width: 80%;
+}
+
+.order_list table{
+    width: 100%;
+}
+
+.order_list table tr{
+    padding:2px 12px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.order_list table td{
+    font-size: 12px;
+    padding: 5px;
+    width: 125px;
+}
+
+.order_list table th{
+    width: 125px;
+}
+
+
+tbody{
+    width: 120%;
+}
+
+.tbody_row{
+    background-color: white;
+    padding: 10px;
+    margin: 8px 0px;
+}
